@@ -1,0 +1,29 @@
+{
+  "account_id": "my-account",
+  "currency": "USD",
+  "positions": [
+    {
+      "symbol": "NVDA",
+      "quantity": 100,
+      "avg_cost": 110.5,
+      "market_price": 0,
+      "market_value": 0,
+      "unrealized_pnl": 0,
+      "unrealized_pnl_percent": 0,
+      "weight": 0
+    },
+    {
+      "symbol": "TLT",
+      "quantity": 200,
+      "avg_cost": 92.1,
+      "market_price": 0,
+      "market_value": 0,
+      "unrealized_pnl": 0,
+      "unrealized_pnl_percent": 0,
+      "weight": 0
+    }
+  ],
+  "cash": 20000,
+  "equity": 0,
+  "timestamp": ""
+}

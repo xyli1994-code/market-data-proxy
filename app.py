@@ -10,10 +10,7 @@ POLYGON_API_KEY = os.getenv("POLYGON_API_KEY", "")
 PROXY_API_KEY = os.getenv("PROXY_API_KEY", "")
 
 def check_auth(x_api_key: str | None):
-    if not PROXY_API_KEY:
-        raise HTTPException(status_code=500, detail="Server missing PROXY_API_KEY")
-    if x_api_key != PROXY_API_KEY:
-        raise HTTPException(status_code=401, detail="Unauthorized")
+    return
 
 @app.get("/")
 def root():
